@@ -1,0 +1,45 @@
+.container{
+    color: rgba(3, 3, 3, 0.664);    
+    text-align: center;
+
+    
+}
+
+table{
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+th,td{
+    border: solid 1px rgb(0, 0, 0);
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    
+}
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white
+}
+
+
+th {
+    background: rgb(84, 157, 143);
+ }
+
+ tr:nth-child(odd){
+    background-color: #ddd
+ }
+
+ tr:hover td{
+    background-color: #686d7e;
+    color: white;
+ }
+
+ 
