@@ -1,5 +1,5 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <body>
 <nav class="navbar navbar-expand-lg bg-primary">
       <div class="container">
@@ -24,21 +24,20 @@
               <a class="nav-link" aria-current="" href="contactos.php">contactos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="" href="">Mi cuenta</a>
+              <a class="nav-link" aria-current="" href="cuenta.php">Mi cuenta</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>  
-<div class="album py-5 bg-light">
+  <div class="album py-5 bg-light">
     <div class="container">
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
-          <img src="img/hilo.png" alt="">
+          <img src="img/tirilla1.png" alt="">
             <div class="card-body">
-              <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a contenido adicional. </font><font style="vertical-align: inherit;">Este contenido es un poco más largo.</font></font></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <a href="comprar.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
@@ -77,17 +76,18 @@
           </div>
         </div>
       </div>
-    </div>
+    </div><br>
+    <ul class="pagination justify-content-center">
+      <li class="page-item"><a class="page-link" href="">Anterior</a></li>
+      <li class="page-item"><a class="page-link" href="paginacion/tienda1.php">1</a></li>
+      <li class="page-item"><a class="page-link" href="paginacion/tienda2.php">2</a></li>
+      <li class="page-item"><a class="page-link" href="paginacion/tienda3.php">3</a></li>
+      <li class="page-item"><a class="page-link" href="paginacion/tienda1.php">Proximo</a></li>
+    </ul>
   </div>
-  <ul class="pagination justify-content-center">
-    <li class="page-item"><a class="page-link" href="">Anterior</a></li>
-    <li class="page-item"><a class="page-link" href="paginacion/tienda1.php">1</a></li>
-    <li class="page-item"><a class="page-link" href="paginacion/tienda2.php">2</a></li>
-    <li class="page-item"><a class="page-link" href="paginacion/tienda3.php">3</a></li>
-    <li class="page-item"><a class="page-link" href="paginacion/tienda1.php">Proximo</a></li>
-  </ul>
+  
   <div class="container px-4 py-5">
-    <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contacto</font></font></h2>
+    <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactos</font></font></h2>
 
     <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
       <div class="d-flex flex-column align-items-start gap-2">
@@ -111,7 +111,7 @@
         </div>
         <div class="d-flex flex-column gap-2">
           <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="30" fill="#808080" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" fill="#FF5733" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
             <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
             <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
           </svg>
@@ -119,10 +119,9 @@
           <h4 class="fw-semibold mb-0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Calidad Garantizada</font></font></h4>
           <p class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Distribuidores autorizados de las mejores marcas de hilos.</font></font></p>
         </div>
-
         <div class="d-flex flex-column gap-2">
           <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="30" fill="#808080" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
+          <svg xmlns="http://www.w3.org/2000/svg" width="100" height="40" fill="#FF5733" class="bi bi-bag-check-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5v-.5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0zm-.646 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
           </svg>
           </div>
