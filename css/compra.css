@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.05rem;
+    color: #222;
+}
+header{
+    background: #fafdfd;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.navbar img{
+    width: 150px;
+    opacity: 0.85;
+}
+.banner-wrapper{
+    padding-left: 70px;
+    padding-right: 200px !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navbar-brand span{
+    margin-left: 0.4rem;
+    color: #222;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-icons{
+    display: flex;
+    align-items: center;
+}
+.nav-icons a:last-child{
+    margin-left: 1rem;
+    display: block;
+    color: #222;
+}
+.banner-content{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    justify-content: center;
+    
+}
+.banner-left h2{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.banner-left span{
+    display: block;
+    font-size: 4.4rem;
+}
+.banner-left p{
+    margin: 1.6rem 0;
+    line-height: 1.4;
+}
+.banner-left button{
+    background: #222;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: inherit;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.65rem 2rem;
+    border: 3px solid #222;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.banner-left button:hover{
+    background: #fff;
+    color: #222;
+    border-color: #222;
+}
+.banner-left button:focus{
+    outline: 0;
+}
+.color-content{
+    margin-top: 1.2rem;
+}
+.color-content h3{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.color{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border-radius: 50%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.color-BCO{
+    background-color: #FFFFFF;
+}
+.color-997{
+    background-color: #C5C8BE;
+}
+.color-001{
+    background-color: #DAD79C;
+}
+.color-007{
+    background-color: #BCBE73;
+}
+.color-006{
+    background-color: #B38D42;
+}
+.color-010{
+    background-color: #D6CE28;
+}
+.color-008{
+    background-color: #D9B431;
+}
+.color-107{
+    background-color: #AF744A;
+}
+.color-109{
+    background-color: #C49B8D;
+}
+.color-108{
+    background-color: #864421;
+}
+.color-829{
+    background-color: #97510C;
+}
+.color-145{
+    background-color: #B8591F;
+}
+.color-111{
+    background-color: #942D0A;
+}
+.color-183{
+    background-color: #F63A15;
+}
+.color-184{
+    background-color: #FF5442;
+}
+
+.color:hover{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.active-color{
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+}
+.color-groups{
+    padding: 2rem 0;
+    display: flex;
+}
+.color-groups2{
+    display: flex;
+}
+.banner-right{
+    float: left;
+    width: 710px;   
+}
+
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    padding: 5px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+    
+}
+[data-title] {
+    position: relative;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px){
+    .navbar{
+        padding-bottom: 3rem;
+    }
+    .banner-content{
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .banner-left h2{
+        font-size: 2rem;
+    }
+    .banner-left span{
+        font-size: 2.8rem;
+    }
+    .color-groups{
+        display: flex;
+        justify-content: center;
+    }
+    .color:last-child{
+        margin-right: 0;
+    }
+}

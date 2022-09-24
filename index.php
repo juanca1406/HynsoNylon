@@ -10,12 +10,7 @@
 </head>
 
 <body>
-<!-- <div class="text-center"> -->
-				<!-- <div class="row mx-auto">
-					<div class="col-">
-						<img src="img/logotipo.png" alt="Práctica" class="text">
-					</div> 
-		</header> -->
+
 <nav class="navbar navbar-expand-lg bg-primary">
       <div class="container">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +18,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="col-0">
-						<img width="180" class="row mx-auto" src="img/logo.png" alt="Práctica" class="text">
+						<img width="180" class="row mx-auto" src="img/Nylon.png" alt="Práctica" class="text">
 					</div>           
          <div class="row mx-auto">
           <p class="fs-1 text-left text-light">HinsoNylon</p>
@@ -44,18 +39,27 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="" href="">Mi cuenta</a>
             </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
           </ul>
         </div>
       </div>
     </nav>
 			<div></div>
-            <center><h1 class="">Distribuidora De HinsoNylon</h1></center>
-            <center><p class="fw-bolder"> Somos distribuidores mayoristas, con experiencia en el mercado de 5 años, estamos aliados con Red Leaf y contamos con una gran variedad de hilos como lo son: Hilos Venus, Hilos sol e semillas
-        
-            </p></center
-            </div>
+            <center><div class="fst-italic" class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
+  Distribuidora HinsoNylon
+</div></center>
             
-<div class="row">
+        
+            
+            </div>
+  
+            <div class="fondo">
+
+            </div>
+<div class="row" class="border border-secondary">
 	<div class="col-6 mx-auto">
 		<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
@@ -89,57 +93,105 @@
 		</div>
 	</div>
   <br>
+  
+</div>
+<br>
+<center><div class="fst-italic" class="h4 pb-2 mb-4 text-danger border-bottom border-danger">
+  Nuestras Marcas
+</div></center>
   <div class="row">
   <div  Class="card col-md-3">
-    <div class="card">
-      <img class="card-img-top w-70" src="img/referencia1.png" class="card-img-top" alt="...">
+    <div class="card" class="border border-secondary">
+      <img class="card-img-top w-70" src="img/inicio1.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">REFERENCIAS</h5>
+        <h5 class="card-title">Red left</h5>
         <UL class="nav-item">
           <a class="nav-link" aria-current="page" href="tienda.php">VER</a>
         </UL>
-        <p class="card-text">Gran variedad de referencias, contamos con las mejores</p>
+        <p class="card-text">Para telas mas sueves</p>
       </div>
     </div>
   </div>
   <div Class="card col-md-3">
     <div  class="card">
-      <img class="card-img-top w-70" src="img/hilo6.webp" class="card-img-top" alt="...">
+      <img class="card-img-top w-70" src="img/inicio2.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">variedad de colores</h5>
+        <h5 class="card-title">Cameta Sol</h5>
       <ul class="nav-item">
+        
         <a class="nav-link" aria-current="page" href="tienda.php">VER</a>
       </ul>
-        <p class="card-text">Tenemos mas de 1.000 colores para que elijas el que desees, todo para tu moda</p>
+        <p class="card-text">Cojines, Covijas</p>
       </div>
     </div>
   </div>
   <div  Class="card col-md-3">
     <div  class="card">
-      <img class="card-img-top w-70" src="img/referencia3.png" class="card-img-top" alt="...">
+      <img class="card-img-top w-70" src="img/inicio3.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title"> TU ESTILOS</h5>
+        <h5 class="card-title"> Venus</h5>
         <ul class="nav-item">
           <a class="nav-link" aria-current="page" href="tienda.php">VER</a>
         </ul>
-        <p class="card-text">Ven y escoge tu estilo de hilo el que te gusta y te llame la atencion</p>
+        <p class="card-text">Marca lider en Hilos</p>
       </div>
     </div>
   </div>
   <div  Class="card col-md-3">
     <div  class="card">
-      <img class="card-img-top w-70" src="img/referencia4.png" class="card-img-top" alt="...">
+      <img class="card-img-top w-70" src="img/inicio4.png" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title"> TU ESTILOS</h5>
+        <h5 class="card-title">Rollo</h5>
         <ul class="nav-item">
           <a class="nav-link" aria-current="page" href="tienda.php">VER</a>
         </ul>
-        <p class="card-text">Ven y escoge tu estilo de hilo el que te gusta y te llame la atencion</p>
+        <p class="card-text">Variedad de tamñaos</p>
       </div>
     </div>
   </div>
 </div>
 </div>
+<br>
+<center><div class="fst-italic" class="h4 pb-2 mb-4 text-danger  border-danger">
+  Identificanos
+</div></center>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Mision
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Somos una distribuidora que nos gusta cumplirle, vender los mejores productos, Economica,Sociables,Calidad.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+       Vision
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Ser una empresa reconocida a nivel nacional e incluso internacional, añadiendo mas productos a nuestro local, ser la mejor en verder productos de calidad a un buen precio a todo tipo de clientes</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        De donde venimos
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+
+
+
+<br>
+  </div>
     <div class="container px-4 py-5">
     <h2 class="pb-2 border-bottom"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactos</font></font></h2>
 
@@ -200,9 +252,8 @@
       </div>
     </div>
   </div>
-<footer>
+
+</div>
   
-</footer>
-
-
-
+</body>
+</html><

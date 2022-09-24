@@ -1,11 +1,17 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/tienda.css">
 <body>
 <nav class="navbar navbar-expand-lg bg-primary">
+          <div class="logo">
+						<img width="200" src="img/nylon.png">
+					</div>
       <div class="container">
+        
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span  class="navbar-toggler-icon"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <div class="col-2">          
           <p class="fs-1 text-left text-light">HinsoNylon</p>
@@ -18,21 +24,20 @@
               <a class="nav-link" href="tienda.php">Tienda</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="" href="">Nosotros</a>
+              <a class="nav-link" aria-current="" href="nosotros.php">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="" href="contactos.php">contactos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="" href="cuenta.php">Mi cuenta</a>
-            </li>
           </ul>
         </div>
       </div>
-    </nav>  
+    </nav>
+    
   <div class="album py-5 bg-light">
     <div class="container">
-
+    <form class="d-flex col-md-12" role="search">
+    </form>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div class="col">
           <div class="card shadow-sm">
@@ -40,7 +45,7 @@
             <div class="card-body">
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="comprar.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                  <a href="compra/comprar.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
                 </div>
                 <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
               </div>
@@ -49,9 +54,8 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="img/hilo.png" alt="">
+          <img src="img/tirilla2.png" alt="">
             <div class="card-body">
-              <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a contenido adicional. </font><font style="vertical-align: inherit;">Este contenido es un poco más largo.</font></font></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
@@ -69,6 +73,19 @@
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
+                </div>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/tirilla1.png" alt="">
+            <div class="card-body">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="contactos.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactos</font></font></button></a>
                 </div>
                 <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
               </div>
@@ -130,5 +147,14 @@
         </div>
       </div>
     </div>
+    <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="inicio.php" class="nav-link px-2 text-muted">Inicio</a></li>
+      <li class="nav-item"><a href="tienda.php" class="nav-link px-2 text-muted">Tienda</a></li>
+      <li class="nav-item"><a href="nosotros.php" class="nav-link px-2 text-muted">Nosotros</a></li>
+      <li class="nav-item"><a href="contactos.php" class="nav-link px-2 text-muted">Contractos</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Distribudora HinsoNylon, S.A.S</p>
+  </footer>
   </div>
 </body>
