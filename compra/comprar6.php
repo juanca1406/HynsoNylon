@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Comprar</title>
+    <title>Hilos Red leaf Catalogo #6 HinsoNylon</title>
     <link rel="stylesheet" href="../css/compra.css">
+    <link rel="shortcut icon" href="../img/Nylon.png" type="image/x-icon">    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </head>
@@ -22,7 +23,7 @@
 						<img width="180" class="row mx-auto" src="../img/Nylon.png" alt="Práctica" class="text">
 					</div>           
          <div class="row mx-auto">
-          <p class="fs-1 text-left text-light">HinsoNylon</p>
+          <p class="fs-1 text-left text-light">HinsoNylon Distribudora S.A.S</p>
         </div> 
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
@@ -42,7 +43,7 @@
       </div>
     </nav>
 <div class = "banner-right">
-  <img src = "../img/tirilla1.png">
+  <img src = "../img/tirilla6.png">
 </div>
     <header>
       <section class = "banner-wrapper "style="text-align:left;">
@@ -51,13 +52,13 @@
           <svg xmlns="http://www.w3.org/2000/svg" width="39" height="40" fill="currentColor" class="bi bi-bookmark-check-fill" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5zm8.854-9.646a.5.5 0 0 0-.708-.708L7.5 7.793 6.354 6.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
           </svg>
-            <span>HinsoNylon</span>        
+            <span>Hilos Red leaf Catalogo #6</span>        
           </div>
         </nav>
         <div class = "banner-content">
           <!-- banner left -->
           <div class = "banner-left">
-            <h2><span>HinsoNylon</span> Distribudora</h2>
+            <h2><span>HinsoNylon</span> Distribudora S.A.S</h2>
             <p>Mejor calidad garantizada mejores precios y ahorro para sus compras.
             Pide tu pedio por whatsapp: 
             <a href="https://walink.co/617bf8">
@@ -69,23 +70,23 @@
             <div class = "color-content">
               <h3>Colores</h3>
               <div class = "color-groups">
-                <a href="https://walink.co/617bf8"><div class = "color color-blanco" data-title="Ref-BCO"></div></i></a>
-                <i><div class = "color color-997" data-title="Ref-997"></div></i>
-                <i><div class = "color color-001" data-title="Ref-001"></div></i>
-                <i><div class = "color color-007" data-title="Ref-007"></div></i>
-                <i><div class = "color color-006" data-title="Ref-006"></div></i>
-                <i><div class = "color color-010" data-title="Ref-010"></div></i>
-                <i><div class = "color color-008" data-title="Ref-008"></div></i>
-                <i><div class = "color color-107" data-title="Ref-107"></div></i>
-                <i><div class = "color color-109" data-title="Ref-109"></div></i>
+                <a href="https://walink.co/617bf8"><div class = "color color-165" data-title="Ref-165"></div></i></a>
+                <i><div class = "color color-161" data-title="Ref-161"></div></i>
+                <i><div class = "color color-164" data-title="Ref-164"></div></i>
+                <i><div class = "color color-768" data-title="Ref-768"></div></i>
+                <i><div class = "color color-167" data-title="Ref-167"></div></i>
+                <i><div class = "color color-163" data-title="Ref-163"></div></i>
+                <i><div class = "color color-168" data-title="Ref-168"></div></i>
+                <i><div class = "color color-155" data-title="Ref-155"></div></i>
+                <i><div class = "color color-159" data-title="Ref-159"></div></i>
               </div>
               <div class = "color-groups2">
-                <i><div class = "color color-108" data-title="Ref-108"></div></i>
-                <i><div class = "color color-829" data-title="Ref-829"></div></i>
-                <i><div class = "color color-145" data-title="Ref-145"></div></i>
-                <i><div class = "color color-111" data-title="Ref-111"></div></i>
-                <i><div class = "color color-183" data-title="Ref-183"></div></i>
-                <i><div class = "color color-184" data-title="Ref-184"></div></i>
+                <i><div class = "color color-158" data-title="Ref-158"></div></i>
+                <i><div class = "color color-156" data-title="Ref-156"></div></i>
+                <i><div class = "color color-160" data-title="Ref-160"></div></i>
+                <i><div class = "color color-148" data-title="Ref-148"></div></i>
+                <i><div class = "color color-157" data-title="Ref-157"></div></i>
+                <i><div class = "color color-998" data-title="Ref-998"></div></i>
               </div>
             </div>
           </div>

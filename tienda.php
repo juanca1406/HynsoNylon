@@ -4,7 +4,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-primary">
           <div class="logo">
-						<img width="200" src="img/nylon.png">
+						<img width="200" src="img/logo2.png">
 					</div>
       <div class="container">
         
@@ -43,9 +43,10 @@
           <div class="card shadow-sm">
           <img src="img/tirilla1.png" alt="">
             <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #1</font></font></p></center>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="compra/comprar.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                  <a href="compra/comprar1.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
                 </div>
                 <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
               </div>
@@ -56,9 +57,10 @@
           <div class="card shadow-sm">
           <img src="img/tirilla2.png" alt="">
             <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #2</font></font></p></center>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
+                <a href="compra/comprar2.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
                 </div>
                 <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
               </div>
@@ -67,12 +69,12 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="img/hilo.png" alt="">
+          <img src="img/tirilla3.png" alt="">
             <div class="card-body">
-              <p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Esta es una tarjeta más amplia con texto de apoyo a continuación como una introducción natural a contenido adicional. </font><font style="vertical-align: inherit;">Este contenido es un poco más largo.</font></font></p>
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #3</font></font></p></center>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button>
+                <a href="compra/comprar3.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
                 </div>
                 <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
               </div>
@@ -81,11 +83,82 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-          <img src="img/tirilla1.png" alt="">
+          <img src="img/tirilla4.png" alt="">
             <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #4</font></font></p></center>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="contactos.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Contactos</font></font></button></a>
+                <a href="compra/comprar4.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                </div>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/tirilla5.png" alt="">
+            <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #5</font></font></p></center>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a href="compra/comprar5.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                </div>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/tirilla6.png" alt="">
+            <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #6</font></font></p></center>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a href="compra/comprar6.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                </div>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/tirilla7.png" alt="">
+            <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #7</font></font></p></center>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a href="compra/comprar7.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                </div>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/tirilla8.png" alt="">
+            <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #8</font></font></p></center>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a href="compra/comprar8.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
+                </div>
+                <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="img/tirilla9.png" alt="">
+            <div class="card-body">
+            <center><p class="card-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Catalogo #9</font></font></p></center>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a href="compra/comprar9.php"><button type="button" class="btn btn-sm btn-outline-secondary"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Comprar</font></font></button></a>
                 </div>
                 <small class="text-muted"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HinsoNylon</font></font></small>
               </div>
